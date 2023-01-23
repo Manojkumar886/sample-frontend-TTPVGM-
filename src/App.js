@@ -1,25 +1,19 @@
-import Basic3, { Basic1, Basic2 } from "./BasicComponents";
-import { SamplebootstrapExample } from "./BootstrapSample";
-import { Parameters } from "./ParameterizedComponents";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Mainpage } from "./HomePage";
 import { TableForm } from "./TableCreation";
-import { TernaryOperator } from "./TernaryOperator";
-import { FirstHook } from "./UseStateSample";
-import { UseState2 } from "./useStateusingNumbers";
-
 
 function App() {
   return (
     <>
-    <TernaryOperator/>
-    {/* <UseState2/>
-    <FirstHook/> */}
-    {/* <Parameters where="./success.jpg" uyaram="200px" agalam="100px"/> */}
-    {/* <SamplebootstrapExample /> */}
-    {/* <TableForm/> */}
-    {/* <Basic2/>
-    <h1>Welcome to react js</h1>
-    <Basic1/>
-    <Basic3/> */}
+    <BrowserRouter>
+    <Mainpage/>
+    <Routes>
+      <Route path="update" exact element={<TableForm/>}/>
+      <Route path="create" exact element={<h2>Welcome to BrowserRouter Module</h2>} />
+    </Routes>
+    </BrowserRouter>
+
+    
     </>
   );
 }
