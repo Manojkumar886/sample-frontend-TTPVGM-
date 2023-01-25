@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sample-frontend-TTPVGM-.git/static/css/main.46d99067.css",
+    "main.js": "/sample-frontend-TTPVGM-.git/static/js/main.5882aad5.js",
+    "index.html": "/sample-frontend-TTPVGM-.git/index.html",
+    "main.46d99067.css.map": "/sample-frontend-TTPVGM-.git/static/css/main.46d99067.css.map",
+    "main.5882aad5.js.map": "/sample-frontend-TTPVGM-.git/static/js/main.5882aad5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46d99067.css",
+    "static/js/main.5882aad5.js"
+  ]
+}

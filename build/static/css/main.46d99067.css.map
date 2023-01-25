@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.46d99067.css","mappings":"AAAA,MAGI,wBAA8B,CAF9B,mBAGJ,CACA,MAEI,UACJ,CACA,GAEI,aACJ","sources":["Mycss.css"],"sourcesContent":["table{\r\n    border-style: double;\r\n    \r\n    background-color: antiquewhite;\r\n}\r\n#Head\r\n{\r\n    color: blue;\r\n}\r\ntd\r\n{\r\n    color: rgb(246, 151, 83);\r\n}"],"names":[],"sourceRoot":""}
